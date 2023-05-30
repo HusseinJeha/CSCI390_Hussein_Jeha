@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Car Sale Website</title>
+  <link rel="shortcut icon" href="me.jpg" type="image/x-icon">
+  <!-- Link to css -->
+  <link rel="stylesheet" href="main.css">
+  <!-- Box Icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body  onclick="changeBackgroundColor()">
+  <!-- Navbar -->
+  <header>
+    <!-- Nac container -->
+    <div class="nav container">
+      <!-- Menu Icon -->
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <!-- Logo -->
+      <a href="#" class="logo">Jeha <span>Exhibition</span></a>
+      <!-- Nav List -->
+      <ul class="navbar">
+        
+        <li><a href="#home" onclick="window.location.href='StoreCar.html';" class="active">Home</a></li>
+        <li><a href="#cars" onclick="window.location.href='Cars.html';" class="active">Cars</a></li>
+        <li><a href="#"  class="active">About</a></li>
+        <li><a href="#parts" onclick="window.location.href='Parts.html';" class="active">Parts</a></li>
+        <li><a href="#"  class="active">Our Blog</a></li>
+      </ul>
+      <!-- Search  Icon -->
+      <i class='bx bx-search' id="search-icon"></i>
+    <div class="search-box container">
+      <input type="search" name="" id=""placeholder="Search here......">
+    </div>
+    </div>
+  </header>
+   <!-- Home -->
+   <section class="home" id="home">
+    <div class="home-text">
+      <h1>We Have EveryThing <br>Your <span>Car </span> Need</h1>
+    <p>Fifty years of effort, service <br>and simulation of reality</p>
+    <a href="#" class="btn">Discover Now</a>
+  </div>
+  </section>
+
+
+
+  <!-- Car section -->
+  <section class="cars" id="cars">
+    <div class="heading">
+      <span>All Cars</span>
+      <h2>We have all type cars</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea dolore, ex, ipsum cumque illo rerum numquam atque, voluptate delectus officiis accusamus nam consectetur. Commodi porro aut minus? Sint, odit deserunt!</p>
+    </div>
+    <!-- Cars Container -->
+    <div class="cars-container container">
+      <!-- Box1 -->
+      <div class="box">
+        <img src="th (1).jpg" alt="">
+        <h2>Porche Car</h2>
+      </div>
+       <!-- Box2 -->
+       <div class="box">
+        <img src="th (2).jpg" alt="">
+        <h2 onclick="showInfo(this)">Porche Car</h2>
+      </div>
+       <!-- Box3-->
+       <div class="box">
+        <img src="th(3).jpg" alt="">
+        <h2>Porche Car</h2>
+      </div>
+       <!-- Box4 -->
+       <div class="box">
+        <img src="th(4).jpg" alt="">
+        <h2>Porche Car</h2>
+      </div>
+       <!-- Box5 -->
+       <div class="box">
+        <img src="th(7).jpg" alt="">
+        <h2>Porche Car</h2>
+      </div>
+      
+       <!-- Box6 -->
+       <div class="box">
+        <img src="th(8).jpg" alt="">
+        <h2>Porche Car</h2>
+      </div>
+      <!-- Box7 -->
+      <div class="box">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.PMhvi2m7uZUI-83j9E4L0gHaEo&pid=Api&P=0" alt="">
+        <h2>Porche Car</h2>
+      </div>
+      <!-- Box7 -->
+      <div class="box">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.g-Q7rnxyLoNqzvNlgytZXgHaFj&pid=Api&P=0" alt="">
+        <h2>Porche Car</h2>
+      </div>
+      <div class="box">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.trXEn6AStLzuOCzpf99o5AHaD4&pid=Api&P=0" alt="">
+        <h2>Porche Car</h2>
+       </div>
+        <div class="box">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.XTrXPGw8zmMHOiZQJRHUGQHaEK&pid=Api&P=0" alt="">
+          <h2>Porche Car</h2>
+      </div>
+      <div class="box">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.XvScO1EgPiwghgX3Umh-CwHaE6&pid=Api&P=0" alt="">
+        <h2>Porche Car</h2>
+    </div>
+    <div class="box">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.noTlAABx0I_tFEFTFCG0CgHaFj&pid=Api&P=0" alt="">
+      <h2>Porche Car</h2>
+  </div>
+  <div class="box">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.rM5hoSGTs6Cx1s8thWLkPAHaEo&pid=Api&P=0" alt="">
+    <h2>Porche Car</h2>
+</div>
+<div class="box">
+  <img src="https://tse1.mm.bing.net/th?id=OIP._UFeDUZV1THIaaKRmDc_nwHaEK&pid=Api&P=" alt="">
+  <h2>Porche Car</h2>
+</div>
+<div class="box">
+  <img src="https://tse4.mm.bing.net/th?id=OIP.GHzjjHiOJuH1n39lfgQxSQHaD3&pid=Api&P=0" alt="">
+  <h2>Porche Car</h2>
+</div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+<section class="footer">
+    <div class="footer-container container">
+      <div class="footer-box">
+        <a href="#" class="logo">Jeha <span>Exhibition</span></a>
+      <div class="social">
+  
+        <a href="#"><i class='bx bxl-facebook' ></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+        <a href="#"><i class='bx bxl-instagram' ></i></a>
+        <a href="#"><i class='bx bxl-youtube' ></i></a>
+        
+      </div>
+      </div>
+      <div class="footer-box">
+        <h3>Page</h3>
+        <a href="#home" onclick="window.location.href='StoreCar.html';" class="active">Home</a>
+        <a href="#cars" onclick="window.location.href='Cars.html';" class="active">Cars</a>
+        <a href="#"  class="active">About</a></li>
+        <a href="#parts" onclick="window.location.href='Parts.html';" class="active">Parts</a>
+        <a href="#"  class="active">Our Blog</a>
+        <a href="#">Sales</a>
+      </div>
+      <div class="footer-box">
+        <h3>Legel</h3>
+        <a href="#">Privacy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">Cookie Policy</a>
+        
+      </div>
+      <div class="footer-box">
+        <h3>Contact</h3>
+        <p>Lebanon</p>
+        <p>Japan</p>
+        <p>Germany</p>
+        <p>China</p>
+  
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- Copyright -->
+  <div class="copyright">
+  <p>&#169;Hussein Jeha All Right Reserved </p>
+  </div>
+  
+  
+  <!-- Link Js -->
+  <script src="store.js"></script>
+  </body>
+  </html>

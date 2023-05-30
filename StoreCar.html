@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Car Sale Website</title>
+  <link rel="shortcut icon" href="me.jpg" type="image/x-icon">
+  <!-- Link to css -->
+  <link rel="stylesheet" href="main.css">
+  <!-- Box Icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+  
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar'}, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body onclick="changeBackgroundColor()">
+  
+  <!-- Navbar -->
+  <header>
+    <!-- Nac container -->
+    <div class="nav container">
+      <!-- Menu Icon -->
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <!-- Logo -->
+      <a href="#" class="logo">Jeha <span>Exhibition</span></a>
+      <!-- Nav List -->
+      <ul class="navbar">
+        
+        <li><a href="#home" onclick="window.location.href='StoreCar.html';" class="active">Home</a></li>
+        <li><a href="#cars" onclick="window.location.href='Cars.html';" class="active">Cars</a></li>
+        <li><a href="#"  class="active">About</a></li>
+        <li><a href="#parts" onclick="window.location.href='Parts.html';" class="active">Parts</a></li>
+        <li><a href="#"  class="active">Our Blog</a></li>
+      </ul>
+      <!-- Search  Icon -->
+      <i class='bx bx-search' id="search-icon"></i>
+    <div class="search-box container">
+      <input type="search" name="" id=""placeholder="Search here......">
+    </div>
+    </div>
+  </header>
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="home-text">
+      <h1>We Have EveryThing <br>Your <span>Car </span> Need</h1>
+    <p>Fifty years of effort, service <br>and simulation of reality</p>
+    <a href="#" class="btn">Discover Now</a>
+  </div>
+  </section>
+  
+
+  <!-- About -->
+<section class="about container" id="about">
+  <div class="about-vedio">
+    <iframe width="456" height="369" src="https://www.youtube.com/embed/y12f7NxFgkw" title="Ferrari F8 Tributo - Official Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div class="about-text">
+    <span>About Us</span>
+    <h2>Prices suit you</h2>
+    <p>At our store, we understand the importance of your vehicle.<br>
+       That's why we offer top-notch car care services to keep your vehicle running smoothly.<br>
+        From routine maintenance to major repairs,<br>
+         our experienced team of professionals is dedicated to providing <br>
+         exceptional customer service and quality workmanship.<br>
+          Trust us to take care of your car, so you can enjoy the ride with peace of mind.<br>
+           Visit us today and experience the difference in our service.</p>
+  <!-- About Button -->
+  <a href="#" class="btn">Learn More</a>
+  </div>
+</section>
+
+<!-- Slide bar -->
+<div class="container-slider">
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="aston-martin.jpg" alt="12"  ></div>
+    <div class="swiper-slide"><img src="audi-rs-e-tron-gt.jpg"  alt="12" ></div>
+    <div class="swiper-slide"><img src="imaserati-mc20.jpg"  alt="12" ></div>
+    <div class="swiper-slide"><img src="nio-et5.jpg"  alt="12" ></div>
+    <div class="swiper-slide"><img src="car2.jpg" alt="12" ></div>
+    <div class="swiper-slide"><img src="car3.jpg" alt="12"  ></div>
+    
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  
+</div>
+</div>
+
+
+<!-- Blog container -->
+<section class="blog" id="blog">
+  <div class="heading">
+    <span>Blog & News</span>
+    <h2>Our Blog Content</h2>
+    <p>Welcome to our blog, where we share the latest news and insights about our store and the world of retail.
+
+      Our blog is the perfect place to stay up-to-date with our newest products, sales, and promotions. We also share helpful tips and advice to help you get the most out of your shopping experience. From style guides to gift ideas, our blog has something for everyone.</p>
+  </div>
+<div class="blog-container container">
+  <!-- Box 1 -->
+  <div class="box">
+    <iframe  src="https://www.youtube.com/embed/6LihAJmSg_4" title="Ferrari F8 Spider - Official Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <span>Mar 23 2023</span>
+  <h3>How To Get Perfect Car At Low Price</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad velit quae porro, quia consectetur dolore recusandae hic cupiditate blanditiis aliquam quo alias consequatur tenetur praesentium, a dolor enim, nemo exercitationem.</p>
+  <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i></a>
+  </div>
+  <!-- Box 2 -->
+  <div class="box">
+  <img src="th (2).jpg" alt="">
+  <span>Mar 23 2023</span>
+  <h3>How To Get Perfect Car At Low Price</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad velit quae porro, quia consectetur dolore recusandae hic cupiditate blanditiis aliquam quo alias consequatur tenetur praesentium, a dolor enim, nemo exercitationem.</p>
+  <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i></a>
+</div>
+  <!-- Box 3 -->
+  <div class="box">
+  <img src="th(4).jpg" alt="">
+  <span>Mar 23 2023</span>
+  <h3>How To Get Perfect Car At Low Price</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad velit quae porro, quia consectetur dolore recusandae hic cupiditate blanditiis aliquam quo alias consequatur tenetur praesentium, a dolor enim, nemo exercitationem.</p>
+  <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i></a>
+</div>
+  <!-- Box 4 -->
+  <div class="box">
+    <iframe  src="https://www.youtube.com/embed/UQrePYNYeK0" title="Ferrari F8 Tributo in Wiesbaden" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <span>Mar 23 2023</span>
+  <h3>How To Get Perfect Car At Low Price</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad velit quae porro, quia consectetur dolore recusandae hic cupiditate blanditiis aliquam quo alias consequatur tenetur praesentium, a dolor enim, nemo exercitationem.</p>
+  <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i></a>
+  
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+  <div class="footer-container container">
+    <div class="footer-box">
+      <a href="#" class="logo">Jeha <span>Exhibition</span></a>
+    <div class="social">
+
+      <a href="#"><i class='bx bxl-facebook' ></i></a>
+      <a href="#"><i class='bx bxl-twitter' ></i></a>
+      <a href="#"><i class='bx bxl-instagram' ></i></a>
+      <a href="#"><i class='bx bxl-youtube' ></i></a>
+      
+    </div>
+   
+    </div>
+    <div class="footer-box">
+      <h3>Page</h3>
+      <a href="#home" onclick="window.location.href='StoreCar.html';" class="active">Home</a>
+        <a href="#cars" onclick="window.location.href='Cars.html';" class="active">Cars</a>
+        <a href="#"  class="active">About</a></li>
+        <a href="#parts" onclick="window.location.href='Parts.html';" class="active">Parts</a>
+        <a href="#"  class="active">Our Blog</a>
+      <a href="#">Sales</a>
+    </div>
+    <div class="footer-box">
+      <h3>Legel</h3>
+      <a href="#">Privacy</a>
+      <a href="#">Refund Policy</a>
+      <a href="#">Cookie Policy</a>
+      
+    </div>
+    <div class="footer-box">
+      <h3>Contact</h3>
+      <p>Lebanon</p>
+      <p>Japan</p>
+      <p>Germany</p>
+      <p>China</p>
+
+
+    </div>
+  </div>
+ 
+  <button onclick="googleTranslateElementInit()">Translate to Arabic</button>
+</section>
+
+
+<!-- Copyright -->
+<div class="copyright">
+<p>&#169;Hussein Jeha All Right Reserved </p>
+</div>
+
+<!-- Slider js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- Link to JS -->
+  <script src="store.js"></script>
+
+<script>
+  //Slider js
+  const swiper = new Swiper('.swiper', {
+    
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });
+</script>
+  
+
+</body>
+</html>
+
+
+
